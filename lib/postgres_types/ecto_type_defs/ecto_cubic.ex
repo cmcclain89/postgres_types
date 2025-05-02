@@ -1,4 +1,8 @@
 defmodule PostgresTypes.EctoTypeDefs.EctoCubic do
+  # an example using a type I defined in Postgres, which is a 3 element tuple representing a point in 3d space (idk if "cubic" is the correct term here!)
+  # its more of less the same as the Postgrex implementation
+  # technically, from what I read elsewhere you can apply this in such a way where data is stored as basic types (i.e. text) 
+  # but then shaped here into domain models. Not a bad idea to consider
   alias PostgresTypes.Type.Cubic
 
   @behaviour Ecto.Type
