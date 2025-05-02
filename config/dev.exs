@@ -8,9 +8,10 @@ config :postgres_types, PostgresTypes.Repo,
   database: "postgres_types_dev",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
-  pool_size: 10,
-  # this is another option in order to use duration on the type
-  types: PostgresTypes.Types.PostgresTypes
+  pool_size: 10
+
+# this is another option in order to use duration on the type
+# types: PostgresTypes.PostgresExtensions.Duration
 
 # For development, we disable any cache and enable
 # debugging and code reloading.

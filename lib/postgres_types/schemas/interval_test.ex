@@ -1,10 +1,10 @@
-defmodule PostgresTypes.Types.IntervalTest do
+defmodule PostgresTypes.Schemas.IntervalTest do
   import Ecto.Changeset
 
   use Ecto.Schema
 
   schema "interval_test" do
-    field :timespan, PostgresTypes.Interval
+    field :timespan, PostgresTypes.EctoTypeDefs.Interval
   end
 
   @doc false

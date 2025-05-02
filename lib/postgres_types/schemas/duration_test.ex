@@ -1,4 +1,4 @@
-defmodule PostgresTypes.Types.DurationTest do
+defmodule PostgresTypes.Schemas.DurationTest do
   import Ecto.Changeset
 
   use Ecto.Schema

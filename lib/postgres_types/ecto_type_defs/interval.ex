@@ -1,4 +1,4 @@
-defmodule PostgresTypes.Interval do
+defmodule PostgresTypes.EctoTypeDefs.Interval do
   # an example using a built-in Postgres type, Interval
   # this is one way to do it, and we can add more support for different types to
   # cast and such to different types. for now, this will just use postgrex interval directly
