@@ -1,5 +1,9 @@
 # PostgresTypes
 
+A project I was/am using to test some things out with custom Postgres/Ecto types.
+
+## Setup
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
